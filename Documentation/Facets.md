@@ -4,13 +4,9 @@ SolrNet supports [faceted searching](https://cwiki.apache.org/confluence/display
 
 There are basically three kinds of facet queries:
 
-Another change
-
  1. querying by field
  1. date facets
  1. arbitrary facet queries
-
-different change
 
 Facet queries are issued through the `FacetQueries` property of `QueryOptions`. Then the `QueryOptions` instance is passed to the server instance.
 
